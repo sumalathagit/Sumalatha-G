@@ -1,0 +1,32 @@
+package com.gsl.BasicProgram;
+
+ 
+class A
+{
+public static void m1()
+	{
+System.out.println("This is m1 method");
+		
+		A.m2();
+		
+	}
+	public static void m2()
+	{
+		System.out.println("This is m2 method");
+	}
+	public static void m3()
+	
+	{
+		System.out.println("This is m3 method");
+	}
+}
+public class Methods {
+	
+public static void main(String[] args)
+{
+	A.m3();
+	A.m1();
+	 
+}
+
+}
